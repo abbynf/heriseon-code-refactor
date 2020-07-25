@@ -8,15 +8,20 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+p {
+    font-size: 16px;
+}
+
+.head {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
     width: 45%;
-    display: inline-block;
-    font-size: 24px;
+    font-size: 24px; 
+    float: left;
 }
+
 
 /*Styles for the navigation section*/
 nav{
@@ -30,7 +35,8 @@ nav{
     list-style-type: none;
 }
 
-/*li and a are styles for components in the nav section*/
+
+/*STYLES FOR THE NAVIGATION SECTION*/
 li {
     display: inline-block;
     margin-left: 25px;
@@ -40,19 +46,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/*END OF STYLES FOR NAVIGATION SECTION*/
 
 
-/*Main article styles*/
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-
-p {
-    font-size: 16px;
-}
 
 
 /*Styles for the main background image of the landing page*/
@@ -67,7 +64,13 @@ p {
 }
 
 
-/*Styles for the main*/
+/*STYLES FOR MAIN*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 main img {
     max-height: 200px;
 }
@@ -96,6 +99,7 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
+/*END OF STYLES FOR THE MAIN*/
 
 
 /*Styles for the aside */
@@ -127,9 +131,10 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
+/*END OF STYLES FOR THE ASIDE*/
 
 
-/*styles for the footer at the bottom of the application*/
+/*STYLES FOR THE FOOTER*/
 footer {
     padding: 30px;
     clear: both;
